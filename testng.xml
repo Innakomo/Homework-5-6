@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation Suite" verbose="1" thread-count="1" parallel="tests">
+    <test name="Search stays" parallel="tests">
+        <classes>
+            <class name="Homework5_6.SearchPageTest"/>
+            <class name="Homework5_6.TaxiPageTest"/>
+
+        </classes>
+    </test>
+</suite>
